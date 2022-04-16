@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -9,7 +9,8 @@ body{
 
 }
 
-.header, .footer{
+.header,
+.footer {
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
@@ -17,30 +18,31 @@ body{
     align-items: center;
 }
 
-.header-logo{
+.header-logo {
     font-size: 24px;
     color: #f9faf8;
 }
 
-.footer{
+.footer {
     display: flex;
-    height: 32px;
-    color: darkmagenta;
+    height: 25px;
+    color: #e5e7eb;
     align-items: center;
     justify-content: center;
 }
 
-ul{
+ul {
     display: flex;
     gap: 16px;
 }
-li{
+
+li {
     list-style-type: none;
     color: #e5e7eb;
     font-size: 15px;
 }
 
-.container{ 
+.container {
     display: flex;
     background-color: #1F2937;
     /* flex-direction: row; */
@@ -50,41 +52,42 @@ li{
     padding: 50px 20px;
     margin-bottom: 50px
 }
-.card{
+
+.card {
     border: 1px;
     width: 320px;
     /* margin-left: 70px; */
 }
-.image{
+
+.image {
     display: flex;
-    padding: 40px;
+    padding: 60px;
     background-color: grey;
     align-items: center;
     justify-content: center;
 }
 
-.hero{
+.hero {
     color: #f9faf8;
-    font-size: 38px;   
+    font-size: 38px;
 }
-.card p{
+
+.card p {
     color: #e5e7eb;
     font-size: 18px;
 }
-button{
+
+.card button {
     background: #3882F6;
     padding: 7px 12px;
     border: none;
     border-radius: 8px;
     color: white;
     transition-duration: 0.2s;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
-button:hover{
-    background-color: beige;
-    color: black;
-}
-.info-header{
+
+.info-header {
     display: flex;
     font-weight: bold;
     font-size: 32px;
@@ -92,7 +95,7 @@ button:hover{
     margin-bottom: 40px;
 }
 
-.info-container{
+.info-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -100,7 +103,7 @@ button:hover{
     gap: 32px;
 }
 
-.info-card{
+.info-card {
     border: 3px solid #3882F6;
     align-items: center;
     border-radius: 8px;
@@ -108,22 +111,75 @@ button:hover{
     height: 120px;
 }
 
-.info-text{
+.info-text {
     margin-top: 140px;
 }
 
-.quote-container{
-    /* display: flex; */
-    font-size: 26px;
-    color: #1f2937;
+.quote-container {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
-    padding: 100px;
-
+    padding: 80px;
     /* justify-content: center; */
 }
 
-.quote-container figcaption{
+.quote-container blockquote {
+    font-size: 26px;
+    color: #1f2937;
+}
+
+.quote-container figcaption {
     margin: 1em;
-    padding-left: 22em;
+    float: right;
     font-weight: bold;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: block;
+    justify-content: center;
+    padding: 100px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: block;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #3882F6;
+    border-radius: 4px;
+    /* padding: 50px 200px; */
+    background-color: #3882F6;
+    width: 100%;
+    height: 150px;
+
+}
+
+.sign-up button {
+    /* float: right; */
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px 17px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.action{
+    align-items: center;
+    /* height: 150px;
+    width: 250px; */
+    /* display: inline; */
+}
+.action-header{
+    color: #f9faf8;
+    font-size: 26px;
+}
+.act{
+    margin-top: 5px;
+    color: #e5e7eb;
+}
+
+button:hover {
+    background-color: beige;
+    color: black;
 }
