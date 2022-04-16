@@ -111,3 +111,19 @@ button:hover{
 .info-text{
     margin-top: 140px;
 }
+
+.quote-container{
+    /* display: flex; */
+    font-size: 26px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 100px;
+
+    /* justify-content: center; */
+}
+
+.quote-container figcaption{
+    margin: 1em;
+    padding-left: 22em;
+    font-weight: bold;
+}
